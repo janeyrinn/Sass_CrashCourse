@@ -1,0 +1,31 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: lightblue;
+  height: 100vh;
+  color: textColor;
+}
+header button, .contact button {
+  background: white;
+}
+header button::after, .contact button::after {
+  content: "!";
+}
+header button:hover, .contact button:hover {
+  background-color: coral;
+}
+
+.contact {
+  background-color: lightseagreen;
+  width: 80%;
+}
+
+.contact button {
+  background: white;
+}
+.contact button:hover {
+  background-color: coral;
+}/*# sourceMappingURL=style.css.map */

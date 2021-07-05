@@ -1,0 +1,15 @@
+@import "./variables";
+@import './header';
+
+.contact {
+    @extend header;
+    background-color: lightseagreen;
+    width: 100% - 20%;
+}
+
+.contact button{
+    background: $primaryBtn;
+    &:hover {
+        background-color: $primaryBtnHover;
+    }
+}
